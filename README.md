@@ -1,7 +1,7 @@
-Fahad Abdullah Alanazi
-Saif Fawaz Alanazi
-Faris Turki AlRasheed
-Zayed abdulrahman Aldosari
+1- Fahad Abdullah Alanazi,
+2- Saif Fawaz Alanazi,
+3- Faris Turki AlRasheed,
+4- Zayed abdulrahman Aldosari,
 
 # Form Coach — Exercise Form Analysis with Ultralytics YOLO
 
