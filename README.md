@@ -1,3 +1,8 @@
+Fahad Abdullah Alanazi
+Saif Fawaz Alanazi
+Faris Turki AlRasheed
+Zayed abdulrahman Aldosari
+
 # Form Coach — Exercise Form Analysis with Ultralytics YOLO
 
 > **TODO before submitting:** fill in every `TODO` marker below.
