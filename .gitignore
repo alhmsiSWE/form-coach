@@ -1,0 +1,38 @@
+# Model weights
+*.pt
+*.onnx
+*.engine
+weights/
+
+# Ultralytics outputs
+runs/
+*_training/
+
+# Datasets
+datasets/
+data/*/
+!data/README.md
+
+# Large media — keep only 2-3 small demo clips, force-add them
+videos/*
+!videos/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+secrets.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Intermediate video files
+*_raw.mp4
+temp_*.mp4
