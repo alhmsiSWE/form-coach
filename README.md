@@ -220,7 +220,7 @@ This project was completed under **Computer Vision for Developers with Ultralyti
 training program delivered by **SDAIA Academy** via Learning Space — a 5-day on-site
 capstone, 30 training hours.
 
-- **Cohort / session dates:** ⚠️ FILL THIS IN —  23–27 August 2026
+- **Cohort / session dates:**   23–27 August 2026
 - **SDAIA Academy on GitHub:** https://github.com/SDAIAAcademy
 
 ء
