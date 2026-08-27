@@ -31,7 +31,8 @@ stable identity across frames, and `solutions.Heatmap` aggregates movement over 
 
 - **Vision tasks used:** pose estimation, object detection, object tracking
 - **Exercises supported:** pushups, squats
-- **Input:** recorded video, side-on view, full body in frame
+- **Input:** recorded video, side-on view, full body in frame (the bundled demo clip is
+  filmed from behind — see [`videos/README.md`](videos/README.md))
 - **Output:** annotated video, rep count, per-frame angle CSV, angle-trace plot, ONNX model
 
 **Known limitation:** the fine-tuned detector carries one class and acts as a presence
@@ -90,7 +91,10 @@ Fine-tuned detector, validation split (38 unseen images):
 | Recall | 0.526 |
 
 Rep counting on `videos/pushups.mp4`: `AIGym` reported 3 reps, matching an independent
-state-machine simulation over the angle series at thresholds 60°/140°.
+state-machine simulation over the angle series at thresholds 60°/140°. The angle trace
+shows four flexion cycles — the fourth extension completes as the clip ends, and the sweep
+table counts it at `up_angle=120`. See [`videos/README.md`](videos/README.md) for what the
+clip contains.
 
 ### How training was run
 
@@ -134,8 +138,11 @@ Roboflow Universe, MIT licence. 145 train / 38 validation / 22 test images, one 
 Downloaded through the Roboflow SDK in notebook 03 — the API key is read via `getpass`,
 never committed. Details and limitations in [`data/README.md`](data/README.md).
 
-Demonstration footage in `videos/` was recorded by the team, so the pipeline is exercised
-on real input rather than stock images.
+Demonstration footage in `videos/` is a free sample clip supplied as course material, not
+team-recorded. It is real video rather than a stock image, but it is a rear-view pulling
+movement rather than the side-on pushup the configuration names — the elbow keypoint chain
+applies either way. [`videos/README.md`](videos/README.md) documents the clip, its source
+and that mismatch.
 
 ## Model weights
 
@@ -222,7 +229,5 @@ capstone, 30 training hours.
 
 - **Cohort / session dates:**   23–27 August 2026
 - **SDAIA Academy on GitHub:** https://github.com/SDAIAAcademy
-
-ء
 
 Repository: [github.com/alhmsiSWE/form-coach](https://github.com/alhmsiSWE/form-coach)
